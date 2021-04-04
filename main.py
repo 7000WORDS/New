@@ -57,3 +57,10 @@ def main():
             print('not allowed such input')
 
 main()
+
+
+v = input("do you want to play again, (y/n): ")
+if v == "y":
+    main()
+else:
+    print("understandable")
