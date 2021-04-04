@@ -29,8 +29,7 @@ def main():
             print("you won")
         elif g == "rock":
             print("you lost")
-        else:
-            print('not allowed such input')
+
 
 
     elif play == "rock":
@@ -41,8 +40,7 @@ def main():
             print("you lost")
         elif g == "scissors":
             print("you won")
-        else:
-            print("not allowed such input")
+
 
 
     elif play == "paper":
@@ -53,8 +51,8 @@ def main():
             print("you lost")
         elif g == "rock":
             print("you won")
-        else:
-            print('not allowed such input')
+       
+            
 
 main()
 
